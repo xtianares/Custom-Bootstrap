@@ -1,0 +1,45 @@
+.demo div p, .hero p {
+	text-align: center;
+}
+.hero p {
+	text-align: center;
+	margin: 0;
+}
+h2.col-sm-12 {
+	margin-top: 20px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	color: #F96E5B;
+}
+.boxed h2.row {
+	margin: 20px 2.7027027027027026%;
+	color: #F96E5B;
+}
+.demo [class^="col-"] p, .hero.demo {
+	background: #EDEDED;
+    margin: 0 auto;
+    padding: 15px 0;
+    border-radius: 4px;
+}
+.demo [class^="col-"] {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.demo [class^="col-"] > .row [class^="col-"] {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.col-sm-12.no_bg {
+	background: none !important;
+	text-align: left !important;
+}
+.col-sm-12.no_bg p {
+	text-align: left !important;
+}
+.demo .btn, button {
+	margin: 10px 0 0 0;
+}
+#demo_inner_page {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
